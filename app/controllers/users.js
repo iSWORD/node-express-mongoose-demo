@@ -100,6 +100,18 @@ exports.logout = function (req, res) {
 };
 
 /**
+ * List users
+ */
+exports.list = function (req, res) {
+  User.find({}, function (err, users) {
+    respond(res, 'users/list', {
+        title: "Members",
+        users: users
+    });
+  });
+}
+
+/**
  * Session
  */
 
