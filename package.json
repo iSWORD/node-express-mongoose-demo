@@ -47,12 +47,8 @@
     "notifier": "~0.1.7",
     "only": "0.0.2",
     "passport": "~0.3.2",
-    "passport-facebook": "~2.1.0",
-    "passport-github": "~1.1.0",
-    "passport-google-oauth": "~1.0.0",
-    "passport-linkedin": "~1.0.0",
+    "passport-facebook-token": "~3.3.0",
     "passport-local": "~1.0.0",
-    "passport-twitter": "~1.0.3",
     "view-helpers": "~0.1.5",
     "winston": "~2.3.0"
   },

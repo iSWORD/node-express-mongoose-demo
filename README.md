@@ -1,13 +1,6 @@
-
-[![Build Status](https://img.shields.io/travis/madhums/node-express-mongoose-demo.svg?style=flat)](https://travis-ci.org/madhums/node-express-mongoose-demo)
-[![Dependencies](https://img.shields.io/david/madhums/node-express-mongoose-demo.svg?style=flat)](https://david-dm.org/madhums/node-express-mongoose-demo)
-[![Code climate](http://img.shields.io/codeclimate/github/madhums/node-express-mongoose-demo.svg?style=flat)](https://codeclimate.com/github/madhums/node-express-mongoose-demo)
-[![Join Gitter Chat](https://img.shields.io/badge/gitter-join%20chat%20%E2%86%92-brightgreen.svg?style=flat)](https://gitter.im/madhums/node-express-mongoose-demo?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Gittip](https://img.shields.io/gratipay/madhums.svg?style=flat)](https://www.gratipay.com/madhums/)
-
 # Nodejs Express Mongoose Demo
 
-This is a demo node.js application illustrating various features used in everyday web development, with a fine touch of best practices. The demo app is a blog application where users (signing up using facebook, twitter, github and simple registrations) can create an article, delete an article and add comments on the article.
+This is a demo node.js application illustrating various features used in everyday web development, with a fine touch of best practices. The demo app is a blog application where users (signing up using facebook token and simple registrations) can create an article, delete an article and add comments on the article.
 
 ## Boilerplate
 
@@ -29,7 +22,7 @@ $ git clone git://github.com/madhums/node-express-mongoose-demo.git
 $ npm install
 ```
 
-**NOTE:** Do not forget to set the facebook, twitter, google, linkedin and github `CLIENT_ID`s and `SECRET`s. In `development` env, you can set the env variables by doing
+**NOTE:** Do not forget to set the facebook `CLIENT_ID` and `SECRET`. In `development` env, you can set the env variables by doing
 
 ```sh
 cp .env.example .env
